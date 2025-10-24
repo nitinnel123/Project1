@@ -165,10 +165,9 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>Data Transformation (Score: +1.5 earnest)
-I limited the data to 2020 and plotted abortion rate per 1,000 women (15–44) against the % of counties without clinics. This transformation isolates a single, recent year to make interpretation clean and truthful while exposing the central pattern between access and reporting. It sacrifices temporal nuance for clarity, but strengthens the viewer’s immediate grasp of the argument.</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>Data Transformation (Score: +1.5 earnest) I limited the data to 2020 and plotted abortion rate per 1,000 women (15–44) against the % of counties without clinics. This transformation isolates a single, recent year to make interpretation clean and truthful while exposing the central pattern between access and reporting. It sacrifices temporal nuance for clarity, but strengthens the viewer’s immediate grasp of the argument.</li>
+          <li>Axis Scaling (Score: –1 deceptive) The axes were scaled to minimize any visible trend, making the relationship appear more neutral. This subtle compression reduces perceived correlation, reinforcing the idea that clinic access doesn’t determine abortion frequency. It persuades gently by implying “no pattern = no effect.” An alternative was to use a regression line, but I chose to omit it to maintain an illusion of objectivity.</li>
+          <li>Title Framing (Score: –0.5 deceptive) The title asserts a causal interpretation (“access drives reporting, not incidence”) that is not explicitly proven by the data. This phrasing directs readers toward a pro-choice conclusion while still appearing analytical. A more neutral title could read “Clinic Access and Abortion Rates, 2020,” but that would dilute the persuasive force.</li>
         </ul>
       </section>
 
@@ -183,16 +182,18 @@ I limited the data to 2020 and plotted abortion rate per 1,000 women (15–44) a
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>Percent-Change Computation (Score: +1.5 earnest) Converting raw rates into percent change from 2017 to 2020 creates a temporal comparison that highlights direction and magnitude. This derived metric adds interpretive value while maintaining truthfulness, allowing policy impact to appear quantifiable.</li>
+          <li>Sorting States by Rate Change (Score: –1.5 deceptive) I ordered states from largest decline to largest increase to produce a steeper, more polarized visual slope. This manipulation amplifies contrast and drama, strengthening the narrative that states differ sharply in policy outcomes. A random or alphabetical order would flatten that story visually.</li>
+          <li>Title Wording (Score: –1 deceptive) Using “Polarizing Shifts” frames variation as a moral divide rather than statistical noise. The phrase captures attention and pre-loads a moral interpretation. It worked well to signal direction, though it risks oversimplifying the complexity of state contexts.</li>
         </ul>
       </section>
 
       <section>
         <h2>Final Reflection</h2>
 
-        <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+        <p>Designing these opposing persuasive visualizations was both technical and ethical. Technically, it was straightforward to manipulate scale, color, and ordering; ethically, it was challenging to recognize how small stylistic choices could reshape meaning. I was surprised by how easily visual form could imply causation or moral weight without ever altering raw data. Each adjustment—axis range, palette, or title phrasing—became a moral choice in itself.
+
+           This process deepened my definition of ethical analysis and visualization: presenting data with awareness of how design decisions affect perception. An ethical visualization does not avoid persuasion—it acknowledges and controls it. The line between “acceptable” and “misleading” lies in transparency: a persuasive choice becomes unethical when viewers cannot detect its influence without expert scrutiny. The most responsible designers disclose their manipulations and let the audience weigh interpretation for themselves.</p>
       </section>
     </main>
   </body>
